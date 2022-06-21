@@ -1,0 +1,49 @@
+@media(max-width:820px ){
+    .container{
+        border: 1px solid white;
+        margin: 0 auto;
+        max-width: 1800px;
+    
+        display: grid;
+        grid-template-areas: /*como o site deve se comportar quando a tela tiver menos que 820px */
+        "sidenav "
+        "sidenav "
+        "foto"
+        "foto"
+        "footer footer"
+        ;
+    
+        grid-gap:20px /*espaço das linhas e colunas*/
+    }
+}
+
+
+a{
+    font-size: 30px;/*tamanho da fonte*/
+    text-align: center;/*alinhamento do texto*/
+}
+
+
+p{
+    font-size: 25px;/*tamanho da fonte*/
+    text-align: center;
+}
+
+h1{
+    font-style: arial;/*estilo da fonte*/
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
+/* visão de tablet */
+@media screen and (max-width: 768px) {
+    body{
+      
+    }
+}
+
+/* tela para mobile */
+
+@media screen and (max-width: 425px) {
+    
+}
